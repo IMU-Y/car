@@ -146,6 +146,7 @@ const initGame = () => {
     type.value = data.cur_type;
     speed.value = data.cur_speed;
     onRenderCarDirection(data.cur_direction);
+    car.src = `./images/${type.value}.png`;
   }
 }
 
